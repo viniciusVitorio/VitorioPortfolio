@@ -1,4 +1,12 @@
 .SkillPageSection {
   height: 90vh;
   border: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.SkillPageSection h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 40pt;
 }

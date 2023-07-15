@@ -5,7 +5,7 @@ const SkillPage = () => {
   return (
     <>
       <section className={Styles.SkillPageSection}>
-        
+        <h1>Conhecimentos</h1>
       </section>
     </>
   )
