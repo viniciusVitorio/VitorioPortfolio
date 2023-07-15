@@ -1,0 +1,48 @@
+.SkillCard {
+  width: 333px;
+  height: 300px;
+  border: 3px solid #8F00FF;
+
+}
+
+.SkillCardTitle {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  left: 15px;
+  top: 20px;
+  position: relative;
+}
+
+.SkillCard h1 {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+  font-size: 21pt;
+  top: 0;
+  left: 0;
+}
+
+.SkillCard img {
+  width: 40px;
+  height: 40px;
+}
+
+.SkillCard p {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  top: 55px;
+  left: 15px;
+  position: relative;
+  border-bottom: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 282px;
+  flex-shrink: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
