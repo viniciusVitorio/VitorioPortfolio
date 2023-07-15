@@ -1,0 +1,40 @@
+.SectionMainPage {
+  width: 100vw;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionCenter {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.sectionCenter h1 {
+  color: white;
+  font-size: 96px;
+}
+
+.sectionCenter span {
+  margin-left: 45px;
+}
+
+.SocialMediaIcons {
+  position: relative;
+  left: 49%;
+  gap: 20px;
+  display: flex;
+  top: 5px;
+}
+
+.SectionMainPage h2 {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-top: 15px;
+}
