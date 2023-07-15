@@ -1,8 +1,8 @@
 .SkillPageSection {
   height: 90vh;
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
+  justify-self: center;
 }
 
 .SkillPageSection h1 {
@@ -10,6 +10,15 @@
   color: white;
   font-size: 40pt;
   position: relative;
-  left: 40%;
+  left: 41%;
   width: 420px;
+}
+
+.Skills {
+  display: flex;
+  position: relative;
+  left: 29%;
+  top: 50px;
+  width: 1017px;
+  border: 2px solid white;
 }

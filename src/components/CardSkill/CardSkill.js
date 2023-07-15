@@ -7,7 +7,7 @@ const CardSkill = (props) => {
       <div className={Styles.SkillCard}>
         <div className={Styles.SkillCardTitle}>
           <img src={props.image} alt="" />
-          <h1>{props.Title}</h1>
+          <h1>{props.title}</h1>
         </div>
         <p>{props.message}</p>
       </div>
